@@ -1,0 +1,156 @@
+
+
+
+.kolona{
+    position: absolute;
+    height:300px;
+    display: grid;
+    grid-template-rows:3fr 3fr 3fr 3fr;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    grid-gap:10px;
+    padding: 10px;
+}
+.jed{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:1 ;
+    grid-row-end:2;
+    background-color: salmon;
+    
+    
+}
+.dva{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:1 ;
+    grid-row-end:2;
+    background-color: salmon;
+   
+}
+.tri{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:1 ;
+    grid-row-end:2;
+    background-color: salmon;
+  
+}
+.cet{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start:1 ;
+    grid-row-end:2;
+    background-color: salmon;
+    
+}
+.pet{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:2 ;
+    grid-row-end:3;
+    background-color: salmon;
+    
+}
+.ses{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:2 ;
+    grid-row-end:3;
+    background-color: salmon;
+    
+}
+.sed{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:2 ;
+    grid-row-end:3;
+    background-color: salmon;
+    
+}
+.osa{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start:2 ;
+    grid-row-end:3;
+    background-color: salmon;
+    
+}
+.dev{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:3 ;
+    grid-row-end:4;
+    background-color: salmon;
+    
+}
+.des{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:3 ;
+    grid-row-end:4;
+    background-color: salmon;
+    
+}
+.jedN{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:3 ;
+    grid-row-end:4;
+    background-color: salmon;
+    
+}
+.dvaN{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start:3 ;
+    grid-row-end:4;
+    background-color: salmon;
+    
+}
+.triN{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start:4 ;
+    grid-row-end:5;
+    background-color: salmon;
+    
+}
+.cetN{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start:4 ;
+    grid-row-end:5;
+    background-color: salmon;
+    
+}
+.petN{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:4 ;
+    grid-row-end:5;
+    background-color: salmon;
+    
+}
+.sesN{
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start:4 ;
+    grid-row-end:5;
+    background-color: salmon;
+    
+}
+.numbCent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#go{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
